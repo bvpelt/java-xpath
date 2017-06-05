@@ -1,0 +1,194 @@
+0000001321,0000001322,0000001325,0000001326,0000001327,0000001328,0000001329,0000001330
+	//woz:*[@stuf:entiteittype="SWO"]//woz:ligtIn//stuf:tijdstipRegistratie
+	//woz:*[@stuf:entiteittype="SWO"]//woz:ligtIn//woz:inOnderzoek
+	//woz:*[@stuf:entiteittype="SWO"]//woz:ligtIn/stuf:tijdvakGeldigheid//stuf:beginGeldigheid
+	//woz:*[@stuf:entiteittype="SWO"]//woz:ligtIn/stuf:tijdvakGeldigheid//stuf:eindGeldigheid
+
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten//stuf:tijdstipRegistratie
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten//woz:inOnderzoek
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten//woz:meegetaxeerdeOppervlakte
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten//woz:toegekendeOppervlakte
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten/stuf:tijdvakGeldigheid//stuf:beginGeldigheid
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten/stuf:tijdvakGeldigheid//stuf:eindGeldigheid
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:codeGebouwdOngebouwd
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:grondoppervlakte
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:heeftSluimerendObject/woz:gerelateerde//stuf:tijdstipRegistratie
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:heeftSluimerendObject/woz:gerelateerde//woz:inOnderzoek
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:heeftSluimerendObject/woz:gerelateerde//woz:wozObjectNummer
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:heeftSluimerendObject/woz:gerelateerde/stuf:tijdvakGeldigheid//stuf:beginGeldigheid
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:heeftSluimerendObject/woz:gerelateerde/stuf:tijdvakGeldigheid//stuf:eindGeldigheid
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:meegetaxeerdeOppervlakteGebouwd
+
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdstipRegistratie
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdvakGeldigheid//stuf:beginGeldigheid
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdvakGeldigheid//stuf:eindGeldigheid
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdvakRelatie//stuf:beginRelatie
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdvakRelatie//stuf:eindRelatie
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//woz:aandeelWaardeWaterschap
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//woz:betrokkenWaterschap
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//woz:waterschapNaam
+
+	//woz:*[@stuf:entiteittype="SWO"]//stuf:tijdstipRegistratie
+	//woz:*[@stuf:entiteittype="SWO"]//woz:codeGebouwdOngebouwd
+	//woz:*[@stuf:entiteittype="SWO"]//woz:einddatumObject
+	//woz:*[@stuf:entiteittype="SWO"]//woz:grondoppervlakte
+	//woz:*[@stuf:entiteittype="SWO"]//woz:inOnderzoek
+	//woz:*[@stuf:entiteittype="SWO"]//woz:ingangsdatumObject
+	//woz:*[@stuf:entiteittype="SWO"]//woz:ligtIn//woz:betrokkenWaterschap
+	//woz:*[@stuf:entiteittype="SWO"]//woz:ligtIn//woz:waterschapNaam
+	//woz:*[@stuf:entiteittype="SWO"]//woz:meegetaxeerdeOppervlakteGebouwd
+	//woz:*[@stuf:entiteittype="SWO"]//woz:omvat//bg:kadastraleAanduiding
+	//woz:*[@stuf:entiteittype="SWO"]//woz:omvat//bg:kadastraleIdentificatie
+	//woz:*[@stuf:entiteittype="SWO"]//woz:omvat//stuf:tijdstipRegistratie
+	//woz:*[@stuf:entiteittype="SWO"]//woz:omvat//stuf:tijdvakRelatie//stuf:beginRelatie
+	//woz:*[@stuf:entiteittype="SWO"]//woz:omvat//woz:einddatumObject
+	//woz:*[@stuf:entiteittype="SWO"]//woz:omvat//woz:inOnderzoek
+	//woz:*[@stuf:entiteittype="SWO"]//woz:omvat//woz:ingangsdatumObject
+	//woz:*[@stuf:entiteittype="SWO"]//woz:omvat//woz:meegetaxeerdeOppervlakte
+	//woz:*[@stuf:entiteittype="SWO"]//woz:omvat//woz:toegekendeOppervlakte
+	//woz:*[@stuf:entiteittype="SWO"]//woz:omvat/stuf:tijdvakGeldigheid//stuf:beginGeldigheid
+	//woz:*[@stuf:entiteittype="SWO"]//woz:omvat/stuf:tijdvakGeldigheid//stuf:eindGeldigheid
+	//woz:*[@stuf:entiteittype="SWO"]//woz:omvat/stuf:tijdvakRelatie//stuf:eindRelatie
+	//woz:*[@stuf:entiteittype="SWO"]//woz:statusWozObject
+	//woz:*[@stuf:entiteittype="SWO"]//woz:wozObjectGeometrie
+	//woz:*[@stuf:entiteittype="SWO"]//woz:wozObjectNummer
+	//woz:*[@stuf:entiteittype="SWO"]/stuf:tijdvakGeldigheid//stuf:beginGeldigheid
+	//woz:*[@stuf:entiteittype="SWO"]/stuf:tijdvakGeldigheid//stuf:eindGeldigheid
+	//woz:*[@stuf:entiteittype="SWO"]/woz:verantwoordelijkeGemeente//bg:gemeenteCode
+	//woz:*[@stuf:entiteittype="SWO"]/woz:verantwoordelijkeGemeente//bg:gemeenteNaam
+
+0000001322,0000001323,0000001325,0000001326,0000001327,0000001328,0000001329,0000001330
+	//woz:heeftBelanghebbende//woz:avr.aard
+
+0000001321,0000001323,0000001326,0000001327,0000001328,0000001329,0000001330
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:ozbVrijstelling
+	//woz:object[@stuf:entiteittype="WRD"]//woz:heffingsmaatstafOZB
+	//woz:object[@stuf:entiteittype="WRD"]//woz:heffingsmaatstafOZBGebruiker
+
+0000001321,0000001325,0000001326,0000001327,0000001328,0000001329,0000001330
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten//woz:einddatumObject
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten//woz:ingangsdatumObject
+
+0000001325,0000001326,0000001327,0000001328,0000001329,0000001330
+	//woz:natuurlijkPersoon//woz:aanvullingSoFiNummer
+	//woz:nietNatuurlijkPersoon//woz:aanvullingSoFiNummer
+	//woz:vestiging//woz:aanvullingSoFiNummer
+
+0000001326,0000001327,0000001328,0000001329,0000001330
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:gebruikscode
+
+0000001326,0000001330
+	//gerelateerde[@stuf:entiteittype="TGO"]//bg:identificatie
+	//gerelateerde[@stuf:entiteittype="TGO"]/bg:adresAanduidingGrp//bg:aoa.huisletter
+	//gerelateerde[@stuf:entiteittype="TGO"]/bg:adresAanduidingGrp//bg:aoa.huisnummer
+	//gerelateerde[@stuf:entiteittype="TGO"]/bg:adresAanduidingGrp//bg:aoa.huisnummertoevoeging
+	//gerelateerde[@stuf:entiteittype="TGO"]/bg:adresAanduidingGrp//bg:aoa.postcode
+	//gerelateerde[@stuf:entiteittype="TGO"]/bg:adresAanduidingGrp//bg:gor.openbareRuimteNaam
+	//gerelateerde[@stuf:entiteittype="TGO"]/bg:adresAanduidingGrp//bg:gor.straatnaam
+	//gerelateerde[@stuf:entiteittype="TGO"]/bg:adresAanduidingGrp//bg:inp.locatiebeschrijving
+	//gerelateerde[@stuf:entiteittype="TGO"]/bg:adresAanduidingGrp//bg:num.identificatie
+	//gerelateerde[@stuf:entiteittype="TGO"]/bg:adresAanduidingGrp//bg:wpl.woonplaatsNaam
+
+	//woz:gerelateerde//bg:aanduidingNaamgebruik
+	//woz:gerelateerde//bg:aanhefAanschrijving
+	//woz:gerelateerde//bg:geslachtsaanduiding
+	//woz:gerelateerde//bg:geslachtsnaam
+	//woz:gerelateerde//bg:geslachtsnaamAanschrijving
+	//woz:gerelateerde//bg:geslachtsnaamPartner
+	//woz:gerelateerde//bg:sub.correspondentieAdres//bg:aoa.huisletter
+	//woz:gerelateerde//bg:sub.correspondentieAdres//bg:aoa.huisnummer
+	//woz:gerelateerde//bg:sub.correspondentieAdres//bg:aoa.huisnummertoevoeging
+	//woz:gerelateerde//bg:sub.correspondentieAdres//bg:aoa.identificatie
+	//woz:gerelateerde//bg:sub.correspondentieAdres//bg:aoa.postcode
+	//woz:gerelateerde//bg:sub.correspondentieAdres//bg:gor.openbareRuimteNaam
+	//woz:gerelateerde//bg:sub.correspondentieAdres//bg:gor.straatnaam
+	//woz:gerelateerde//bg:sub.correspondentieAdres//bg:postcode
+	//woz:gerelateerde//bg:sub.correspondentieAdres//bg:sub.postadresNummer
+	//woz:gerelateerde//bg:sub.correspondentieAdres//bg:sub.postadresType
+	//woz:gerelateerde//bg:sub.correspondentieAdres//bg:wpl.woonplaatsNaam
+	//woz:gerelateerde//bg:sub.verblijfBuitenland//bg:lnd.landcode
+	//woz:gerelateerde//bg:sub.verblijfBuitenland//bg:lnd.landnaam
+	//woz:gerelateerde//bg:sub.verblijfBuitenland//bg:sub.adresBuitenland1
+	//woz:gerelateerde//bg:sub.verblijfBuitenland//bg:sub.adresBuitenland2
+	//woz:gerelateerde//bg:sub.verblijfBuitenland//bg:sub.adresBuitenland3
+	//woz:gerelateerde//bg:verblijfsadres//bg:aoa.huisletter
+	//woz:gerelateerde//bg:verblijfsadres//bg:aoa.huisnummer
+	//woz:gerelateerde//bg:verblijfsadres//bg:aoa.huisnummertoevoeging
+	//woz:gerelateerde//bg:verblijfsadres//bg:aoa.identificatie
+	//woz:gerelateerde//bg:verblijfsadres//bg:aoa.postcode
+	//woz:gerelateerde//bg:verblijfsadres//bg:gor.openbareRuimteNaam
+	//woz:gerelateerde//bg:verblijfsadres//bg:gor.straatnaam
+	//woz:gerelateerde//bg:verblijfsadres//bg:inp.locatiebeschrijving
+	//woz:gerelateerde//bg:verblijfsadres//bg:wpl.woonplaatsNaam
+	//woz:gerelateerde//bg:voorletters
+	//woz:gerelateerde//bg:voorvoegselGeslachtsnaam
+	//woz:gerelateerde//bg:voorvoegselGeslachtsnaamPartner
+
+	//woz:heeftBelanghebbende//stuf:tijdstipRegistratie
+	//woz:heeftBelanghebbende//stuf:tijdvakGeldigheid//stuf:beginGeldigheid
+	//woz:heeftBelanghebbende//stuf:tijdvakGeldigheid//stuf:eindGeldigheid
+	//woz:heeftBelanghebbende//stuf:tijdvakRelatie//stuf:beginRelatie
+	//woz:heeftBelanghebbende//stuf:tijdvakRelatie//stuf:eindRelatie
+	//woz:heeftBelanghebbende//woz:aanduidingEigenaarGebruiker
+	//woz:heeftBelanghebbende//woz:inOnderzoek
+	//woz:heeftBelanghebbende//woz:statusBelang
+
+	//woz:natuurlijkPersoon//bg:anp.identificatie
+	//woz:natuurlijkPersoon//bg:authentiek
+	//woz:natuurlijkPersoon//bg:geboortedatum
+	//woz:natuurlijkPersoon//bg:indicatieGeheim
+	//woz:natuurlijkPersoon//bg:inp.bsn
+	//woz:natuurlijkPersoon//woz:datumEindeSynchronisatie
+	//woz:natuurlijkPersoon//woz:soFiNummer
+	//woz:natuurlijkPersoon//woz:verantwoordelijkeGemeente
+
+	//woz:nietNatuurlijkPersoon//bg:inn.nnpId
+	//woz:nietNatuurlijkPersoon//bg:rps.isEigenaarVan//bg:kvkNummer
+	//woz:nietNatuurlijkPersoon//bg:statutaireNaam
+	//woz:nietNatuurlijkPersoon//woz:datumEindeSynchronisatie
+	//woz:nietNatuurlijkPersoon//woz:verantwoordelijkeGemeente
+
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:ligtIn//stuf:tijdstipRegistratie
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:ligtIn//woz:betrokkenWaterschap
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:ligtIn//woz:inOnderzoek
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:ligtIn//woz:waterschapNaam
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:ligtIn/stuf:tijdvakGeldigheid//stuf:beginGeldigheid
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:ligtIn/stuf:tijdvakGeldigheid//stuf:eindGeldigheid
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:ligtIn/stuf:tijdvakRelatie//stuf:beginRelatie
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:ligtIn/stuf:tijdvakRelatie//stuf:eindRelatie
+
+	//woz:object[@stuf:entiteittype="WRD"]/woz:isBeschiktVoor//woz:statusBeschikking
+	//woz:object[@stuf:entiteittype="WRD"]/woz:isBeschiktVoor/woz:brondocument//bg:datum
+	//woz:object[@stuf:entiteittype="WRD"]/woz:isBeschiktVoor/woz:brondocument//bg:identificatie
+
+	//woz:vestiging//bg:handelsnaam
+	//woz:vestiging//bg:oefentActiviteitenUitVoor//bg:kvkNUmmer
+	//woz:vestiging//bg:vestigingsNummer
+	//woz:vestiging//woz:datumEindeSynchronisatie
+	//woz:vestiging//woz:soFiNummer
+	//woz:vestiging//woz:verantwoordelijkeGemeente
+
+0000001330
+	//woz:*[@stuf:entiteittype="SWO"]//woz:ligtIn/stuf:tijdvakRelatie//stuf:beginRelatie
+	//woz:*[@stuf:entiteittype="SWO"]//woz:ligtIn/stuf:tijdvakRelatie//stuf:eindRelatie
+
+	//woz:object[@stuf:entiteittype="WOZ"]//stuf:tijdstipRegistratie
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten//bg:kadastraleAanduiding
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten//bg:kadastraleIdentificatie
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten/stuf:tijdvakRelatie//stuf:beginRelatie
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten/stuf:tijdvakRelatie//stuf:eindRelatie
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:einddatumObject
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:heeftSluimerendObject/woz:gerelateerde/stuf:tijdvakRelatie//stuf:beginRelatie
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:heeftSluimerendObject/woz:gerelateerde/stuf:tijdvakRelatie//stuf:eindRelatie
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:inOnderzoek
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:ingangsdatumObject
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:statusWozObject
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:wozObjectGeometrie
+	//woz:object[@stuf:entiteittype="WOZ"]/stuf:tijdvakGeldigheid//stuf:beginGeldigheid
+	//woz:object[@stuf:entiteittype="WOZ"]/stuf:tijdvakGeldigheid//stuf:eindGeldigheid
+	//woz:object[@stuf:entiteittype="WOZ"]/woz:verantwoordelijkeGemeente//bg:gemeenteCode
+	//woz:object[@stuf:entiteittype="WOZ"]/woz:verantwoordelijkeGemeente//bg:gemeenteNaam
+
+	//woz:object[@stuf:entiteittype="WRD"]//stuf:tijdstipRegistratie
+	//woz:object[@stuf:entiteittype="WRD"]/stuf:tijdvakGeldigheid//stuf:beginGeldigheid
+	//woz:object[@stuf:entiteittype="WRD"]/stuf:tijdvakGeldigheid//stuf:eindGeldigheid

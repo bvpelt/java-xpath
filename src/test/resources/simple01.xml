@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:adres="http://www.example.com/adres"
+           xmlns="http://www.example.com" xsi:schemaLocation="http://www.example.com example.xsd">
+    <Employee id="1" status="new">
+        <age>29</age>
+        <name>Pankaj</name>
+        <gender>Male</gender>
+        <role>Java Developer</role>
+    </Employee>
+    <Employee id="2" status="new">
+        <age>35</age>
+        <name>Lisa</name>
+        <gender>Female</gender>
+        <role>CEO</role>
+        <adres:adres>
+            <adres:straat>dorpstraat</adres:straat>
+            <adres:huisnummer>7</adres:huisnummer>
+            <adres:postcode>5043AM</adres:postcode>
+            <adres:woonplaats>Lunteren</adres:woonplaats>
+        </adres:adres>
+    </Employee>
+    <Employee id="3" status="old">
+        <age>40</age>
+        <name>Tom</name>
+        <gender>Male</gender>
+        <role>Manager</role>
+    </Employee>
+    <Employee id="4" status="delete">
+        <age>25</age>
+        <name>Meghna</name>
+        <gender>Female</gender>
+        <role>Manager</role>
+        <adres:adres>
+            <adres:straat>kerkstraat</adres:straat>
+            <adres:huisnummer>5</adres:huisnummer>
+            <adres:postcode>4503AM</adres:postcode>
+            <adres:woonplaats>Ede</adres:woonplaats>
+        </adres:adres>
+    </Employee>
+</Employees>
