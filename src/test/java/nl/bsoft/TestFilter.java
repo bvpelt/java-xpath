@@ -1,6 +1,8 @@
 package nl.bsoft;
 
-import com.codahale.metrics.*;
+import com.codahale.metrics.Meter;
+import com.codahale.metrics.MetricRegistry;
+import com.codahale.metrics.Slf4jReporter;
 import com.jcabi.xml.XMLDocument;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -31,15 +33,16 @@ public class TestFilter {
     @BeforeClass
     public static void doYourOneTimeSetup()
     {
+
         reporterSlf4j = Slf4jReporter.forRegistry(metrics)
                 .outputTo(LoggerFactory.getLogger("nl.bsoft.TestFilter"))
                 .convertRatesTo(TimeUnit.SECONDS)
                 .convertDurationsTo(TimeUnit.MILLISECONDS)
                 .build();
 
-        reporterSlf4j.start(1, TimeUnit.SECONDS);
+        // reporterSlf4j.start(1, TimeUnit.SECONDS);
     }
-
+/*
     @Test
     public void doTest01() {
         tests.mark();
@@ -149,9 +152,57 @@ public class TestFilter {
         String xmlout = new XMLDocument(doc).toString();
         log.info("converted document\n{}", xmlout);
     }
+*/
 
     @AfterClass
     public static void doYourOneTimeTeardown() {
-        reporterSlf4j.report();
+        // reporterSlf4j.report();
+    }
+
+    @Test
+    public void doTest04() {
+        tests.mark();
+        // read xml input file
+        // convert to document
+        // create filter class
+        // execute filter
+        // show result
+
+        Document doc = null;
+        DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
+
+        docBuilderFactory.setNamespaceAware(true); // never forget this!, default value is false;
+        docBuilderFactory.setValidating(false);
+        DocumentBuilder docBuilder = null;
+        try {
+            docBuilder = docBuilderFactory.newDocumentBuilder();
+
+            /*
+            URL resurl = getClass().getClassLoader().getResource("simple.xml");
+            InputSource inputSource = new InputSource(resurl.openStream());
+            */
+
+            doc = docBuilder.parse(new File("src/test/resources/woz_01.xml"));
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        } catch (SAXException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        // normalize text representation
+        doc.getDocumentElement().normalize();
+        log.info("01 - Root element of the doc is: {} ", doc.getDocumentElement().getNodeName());
+
+        Filter f = new Filter();
+        String[] roles = {"0000001325"};
+
+        String xmlin = new XMLDocument(doc).toString();
+        log.info("Input     document\n{}", xmlin);
+
+        f.filterDocument(doc, roles);
+
+        String xmlout = new XMLDocument(doc).toString();
+        log.info("Converted document\n{}", xmlout);
     }
 }
