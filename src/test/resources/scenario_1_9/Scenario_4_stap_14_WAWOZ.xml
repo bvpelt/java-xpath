@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WOZ:WAWOZ_Di01 xsi:schemaLocation="http://www.waarderingskamer.nl/StUF/0312 file:///C:/temp/LV%20WOZ/woz0312_20150703/woz0312/lv_mutatieMetFo01/woz0312_msg_lv_mutatie.xsd" xmlns:StUF="http://www.egem.nl/StUF/StUF0301" xmlns:BG="http://www.egem.nl/StUF/sector/bg/0310" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:WOZ="http://www.waarderingskamer.nl/StUF/0312">
+	<WOZ:stuurgegevens>
+		<StUF:berichtcode>Di01</StUF:berichtcode>
+		<StUF:zender>
+			<StUF:organisatie>00000001803577059000</StUF:organisatie>
+			<StUF:applicatie>xxx</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker>Waarderingskamer</StUF:gebruiker>
+		</StUF:zender>
+		<StUF:ontvanger>
+			<StUF:organisatie>KADASTER</StUF:organisatie>
+			<StUF:applicatie>LVWOZ</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker/>
+		</StUF:ontvanger>
+		<StUF:referentienummer>418</StUF:referentienummer>
+		<StUF:tijdstipBericht>20170506220414000</StUF:tijdstipBericht>
+		<StUF:functie>WOZ-WAWOZ</StUF:functie>
+	</WOZ:stuurgegevens>
+	<WOZ:routering StUF:entiteittype="WOZ" StUF:functie="entiteit">
+		<WOZ:verantwoordelijkeGemeente>
+			<BG:gemeenteCode>1234</BG:gemeenteCode>
+		</WOZ:verantwoordelijkeGemeente>
+		<WOZ:ligtIn StUF:entiteittype="WOZWSP">
+			<WOZ:gerelateerde StUF:entiteittype="WSP">
+				<WOZ:betrokkenWaterschap>0372</WOZ:betrokkenWaterschap>
+			</WOZ:gerelateerde>
+		</WOZ:ligtIn>
+	</WOZ:routering>
+	<WOZ:wijzigAfbakeningWOZ StUF:entiteittype="WOZ" StUF:functie="update">
+		<WOZ:parameters>
+			<StUF:mutatiesoort>W</StUF:mutatiesoort>
+			<StUF:indicatorOvername>V</StUF:indicatorOvername>
+		</WOZ:parameters>
+		<WOZ:object StUF:entiteittype="WOZ" StUF:verwerkingssoort="W">
+			<WOZ:wozObjectNummer>600000051111</WOZ:wozObjectNummer>
+			<WOZ:aanduidingWOZobject>
+				<BG:aoa.identificatie>0513200000050111</BG:aoa.identificatie>
+				<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+				<BG:aoa.postcode>2524GB</BG:aoa.postcode>
+				<BG:gor.openbareRuimteNaam>Boerenpad</BG:gor.openbareRuimteNaam>				
+				<BG:aoa.huisnummer>1</BG:aoa.huisnummer>
+				<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:locatieOmschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+			</WOZ:aanduidingWOZobject>
+			<WOZ:statusWozObject>0</WOZ:statusWozObject>
+			<WOZ:grondoppervlakte>23000</WOZ:grondoppervlakte>
+			<StUF:tijdvakGeldigheid>
+				<StUF:beginGeldigheid>20110117</StUF:beginGeldigheid>
+				<StUF:eindGeldigheid>20120324</StUF:eindGeldigheid>
+			</StUF:tijdvakGeldigheid>			
+			<WOZ:bevatKadastraleObjecten StUF:entiteittype="WOZKOZ" StUF:verwerkingssoort="E">
+				<WOZ:gerelateerde StUF:entiteittype="KOZ" StUF:verwerkingssoort="I">
+					<BG:kadastraleIdentificatie StUF:noValue="waardeOnbekend" xsi:nil="true"/>
+					<BG:kadastraleAanduiding>
+						<BG:kadastraleGemeentecode>XXX01</BG:kadastraleGemeentecode>
+						<BG:kadastraleSectie>A</BG:kadastraleSectie>
+						<BG:kadastraalPerceelnummer>5012</BG:kadastraalPerceelnummer>
+						<BG:kdp.deelperceelNummer StUF:noValue="geenWaarde" xsi:nil="true"/>			
+					</BG:kadastraleAanduiding>
+				</WOZ:gerelateerde>
+				<StUF:tijdvakRelatie>
+					<StUF:beginRelatie>20100501</StUF:beginRelatie>
+					<StUF:eindRelatie>20120324</StUF:eindRelatie>
+				</StUF:tijdvakRelatie>
+				<StUF:tijdvakGeldigheid>
+					<StUF:beginGeldigheid>20120324</StUF:beginGeldigheid>
+					<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakGeldigheid>
+				<StUF:tijdstipRegistratie>20120403000000000</StUF:tijdstipRegistratie>
+			</WOZ:bevatKadastraleObjecten>			
+			<WOZ:bevatKadastraleObjecten StUF:entiteittype="WOZKOZ" StUF:verwerkingssoort="T" StUF:noValue="geenWaarde" xsi:nil="true"/>
+		</WOZ:object>
+		<WOZ:object StUF:entiteittype="WOZ" StUF:verwerkingssoort="W">
+			<WOZ:wozObjectNummer>600000051111</WOZ:wozObjectNummer>
+			<WOZ:aanduidingWOZobject>
+				<BG:aoa.identificatie>0513200000050111</BG:aoa.identificatie>
+				<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+				<BG:aoa.postcode>2524GB</BG:aoa.postcode>
+				<BG:gor.openbareRuimteNaam>Boerenpad</BG:gor.openbareRuimteNaam>				
+				<BG:aoa.huisnummer>1</BG:aoa.huisnummer>
+				<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:locatieOmschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+			</WOZ:aanduidingWOZobject>
+			<WOZ:statusWozObject>0</WOZ:statusWozObject>
+			<WOZ:grondoppervlakte>3600</WOZ:grondoppervlakte>
+			<StUF:tijdvakGeldigheid>
+				<StUF:beginGeldigheid>20120324</StUF:beginGeldigheid>
+				<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>				
+			</StUF:tijdvakGeldigheid>
+			<StUF:tijdstipRegistratie>20120403000000000</StUF:tijdstipRegistratie>		
+            <WOZ:bevatKadastraleObjecten StUF:entiteittype="WOZKOZ" StUF:verwerkingssoort="E" StUF:noValue="geenWaarde" xsi:nil="true"/>			
+			<WOZ:bevatKadastraleObjecten StUF:entiteittype="WOZKOZ" StUF:verwerkingssoort="T">
+				<WOZ:gerelateerde StUF:entiteittype="KOZ" StUF:verwerkingssoort="T">
+					<BG:kadastraleIdentificatie StUF:noValue="waardeOnbekend" xsi:nil="true"/>
+					<BG:kadastraleAanduiding>
+						<BG:kadastraleGemeentecode>XXX01</BG:kadastraleGemeentecode>
+						<BG:kadastraleSectie>A</BG:kadastraleSectie>
+						<BG:kadastraalPerceelnummer>5012</BG:kadastraalPerceelnummer>
+						<BG:kdp.deelperceelNummer>0001</BG:kdp.deelperceelNummer>
+					</BG:kadastraleAanduiding>
+				</WOZ:gerelateerde>
+				<WOZ:toegekendeOppervlakte>100</WOZ:toegekendeOppervlakte>
+				<WOZ:meegetaxeerdeOppervlakte>0</WOZ:meegetaxeerdeOppervlakte>
+				<StUF:tijdvakRelatie>
+					<StUF:beginRelatie>20120324</StUF:beginRelatie>
+					<StUF:eindRelatie StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakRelatie>
+				<StUF:tijdvakGeldigheid>
+					<StUF:beginGeldigheid>20120324</StUF:beginGeldigheid>
+					<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakGeldigheid>
+				<StUF:tijdstipRegistratie>20120403000000000</StUF:tijdstipRegistratie>
+			</WOZ:bevatKadastraleObjecten>			
+		</WOZ:object>
+	</WOZ:wijzigAfbakeningWOZ>
+</WOZ:WAWOZ_Di01>

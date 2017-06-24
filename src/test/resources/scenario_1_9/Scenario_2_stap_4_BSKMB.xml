@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WOZ:BSKMB_Di01 xmlns:StUF="http://www.egem.nl/StUF/StUF0301" xmlns:BG="http://www.egem.nl/StUF/sector/bg/0310" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:WOZ="http://www.waarderingskamer.nl/StUF/0312" xsi:schemaLocation="http://www.waarderingskamer.nl/StUF/0312 file:///C:/temp/LV%20WOZ/woz0312_20150703/woz0312/lv_mutatieMetFo01/woz0312_msg_lv_mutatie.xsd">
+	<WOZ:stuurgegevens>
+		<StUF:berichtcode>Di01</StUF:berichtcode>
+		<StUF:zender>
+			<StUF:organisatie>00000001803577059000</StUF:organisatie>
+			<StUF:applicatie>xxx</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker>Waarderingskamer</StUF:gebruiker>
+		</StUF:zender>
+		<StUF:ontvanger>
+			<StUF:organisatie>KADASTER</StUF:organisatie>
+			<StUF:applicatie>LVWOZ</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker/>
+		</StUF:ontvanger>
+		<StUF:referentienummer>204</StUF:referentienummer>
+		<StUF:tijdstipBericht>20170506220104000</StUF:tijdstipBericht>
+		<StUF:functie>WOZ-BSKMB</StUF:functie>
+	</WOZ:stuurgegevens>
+	<WOZ:routering StUF:entiteittype="WOZ" StUF:functie="entiteit">
+		<WOZ:verantwoordelijkeGemeente>
+			<BG:gemeenteCode>6000</BG:gemeenteCode>
+		</WOZ:verantwoordelijkeGemeente>
+		<WOZ:ligtIn StUF:entiteittype="WOZWSP">
+			<WOZ:gerelateerde StUF:entiteittype="WSP">
+				<WOZ:betrokkenWaterschap>0372</WOZ:betrokkenWaterschap>
+			</WOZ:gerelateerde>
+		</WOZ:ligtIn>
+	</WOZ:routering>
+	<WOZ:voegToeNPS StUF:entiteittype="NPS" StUF:functie="update">
+		<WOZ:parameters>
+			<StUF:mutatiesoort>T</StUF:mutatiesoort>
+			<StUF:indicatorOvername>V</StUF:indicatorOvername>
+		</WOZ:parameters>
+		<WOZ:object StUF:entiteittype="NPS" StUF:verwerkingssoort="T">
+			<WOZ:isEen StUF:entiteittype="NPSNPS" StUF:verwerkingssoort="T">
+				<WOZ:gerelateerde StUF:entiteittype="NPS" StUF:verwerkingssoort="T">
+					<BG:inp.bsn>123466556</BG:inp.bsn>
+					<BG:geslachtsnaam>Vries</BG:geslachtsnaam>
+					<BG:voorvoegselGeslachtsnaam>de</BG:voorvoegselGeslachtsnaam>
+					<BG:voorletters>K.</BG:voorletters>
+					<BG:aanduidingNaamgebruik>E</BG:aanduidingNaamgebruik>
+					<BG:geslachtsnaamPartner StUF:noValue="geenWaarde" xsi:nil="true"/>
+					<BG:voorvoegselGeslachtsnaamPartner StUF:noValue="geenWaarde" xsi:nil="true"/>
+					<BG:aanhefAanschrijving>de heer</BG:aanhefAanschrijving>
+					<BG:geslachtsnaamAanschrijving>de Vries</BG:geslachtsnaamAanschrijving>
+					<BG:geslachtsaanduiding>M</BG:geslachtsaanduiding>
+					<BG:geboortedatum>19900619</BG:geboortedatum>
+					<BG:inp.verblijftIn StUF:entiteittype="NPSTGO" StUF:verwerkingssoort="T">
+						<BG:gerelateerde StUF:entiteittype="TGO" StUF:verwerkingssoort="T">
+							<BG:identificatie>0513010000021223</BG:identificatie>
+							<BG:adresAanduidingGrp>
+								<BG:num.identificatie>0513200000002127</BG:num.identificatie>
+								<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+								<BG:gor.openbareRuimteNaam>Graaf 1 straat</BG:gor.openbareRuimteNaam>
+								<BG:gor.straatnaam>Graaf 1 straat</BG:gor.straatnaam>
+								<BG:aoa.postcode>2500AA</BG:aoa.postcode>
+								<BG:aoa.huisnummer>25</BG:aoa.huisnummer>
+								<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+								<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+							</BG:adresAanduidingGrp>
+						</BG:gerelateerde>
+					</BG:inp.verblijftIn>
+					<BG:verblijfsadres>
+						<BG:aoa.identificatie>0513200000002127</BG:aoa.identificatie>
+						<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+						<BG:gor.openbareRuimteNaam>Graaf 1 straat</BG:gor.openbareRuimteNaam>
+						<BG:gor.straatnaam>Graaf 1 straat</BG:gor.straatnaam>
+						<BG:aoa.postcode>2500AA</BG:aoa.postcode>
+						<BG:aoa.huisnummer>25</BG:aoa.huisnummer>
+						<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:inp.locatiebeschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+					</BG:verblijfsadres>
+					<BG:inp.indicatieGeheim>0</BG:inp.indicatieGeheim>
+				</WOZ:gerelateerde>
+			</WOZ:isEen>
+			<WOZ:soFiNummer>123466556</WOZ:soFiNummer>
+			<WOZ:aanvullingSoFiNummer StUF:noValue="geenWaarde" xsi:nil="true"/>
+			<WOZ:verantwoordelijkeGemeente>6000</WOZ:verantwoordelijkeGemeente>
+			<WOZ:datumEindeSynchronisatie>20120101</WOZ:datumEindeSynchronisatie>
+		</WOZ:object>
+	</WOZ:voegToeNPS>
+	<WOZ:voegBeschikkingMBtoeWRD StUF:entiteittype="WRD" StUF:functie="update">
+		<WOZ:parameters>
+			<StUF:mutatiesoort>W</StUF:mutatiesoort>
+			<StUF:indicatorOvername>V</StUF:indicatorOvername>
+		</WOZ:parameters>
+		<WOZ:object StUF:entiteittype="WRD" StUF:verwerkingssoort="I">
+			<WOZ:waardepeildatum>20100101</WOZ:waardepeildatum>
+			<WOZ:ingangsdatumWaarde>20110101</WOZ:ingangsdatumWaarde>
+			<WOZ:isVoor StUF:entiteittype="WRDWOZ" StUF:verwerkingssoort="I">
+				<WOZ:gerelateerde StUF:entiteittype="WOZ" StUF:verwerkingssoort="I">
+					<WOZ:wozObjectNummer>600000023123</WOZ:wozObjectNummer>
+					<WOZ:aanduidingWOZobject>
+						<BG:aoa.identificatie StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+						<BG:aoa.postcode StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:gor.openbareRuimteNaam>Vlietstraat</BG:gor.openbareRuimteNaam>
+						<BG:aoa.huisnummer StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:locatieOmschrijving>Privé bos langs Vliet</BG:locatieOmschrijving>
+					</WOZ:aanduidingWOZobject>
+				</WOZ:gerelateerde>
+			</WOZ:isVoor>
+			<WOZ:isBeschiktVoor StUF:entiteittype="WRDSUB" StUF:verwerkingssoort="T" StUF:noValue="geenWaarde" xsi:nil="true"/>
+		</WOZ:object>
+		<WOZ:object StUF:entiteittype="WRD" StUF:verwerkingssoort="I">
+			<WOZ:waardepeildatum>20100101</WOZ:waardepeildatum>
+			<WOZ:ingangsdatumWaarde>20110101</WOZ:ingangsdatumWaarde>
+			<WOZ:isVoor StUF:entiteittype="WRDWOZ" StUF:verwerkingssoort="I">
+				<WOZ:gerelateerde StUF:entiteittype="WOZ" StUF:verwerkingssoort="I">
+					<WOZ:wozObjectNummer>600000023123</WOZ:wozObjectNummer>
+					<WOZ:aanduidingWOZobject>
+						<BG:aoa.identificatie StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+						<BG:aoa.postcode StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:gor.openbareRuimteNaam>Vlietstraat</BG:gor.openbareRuimteNaam>
+						<BG:aoa.huisnummer StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:locatieOmschrijving>Privé bos langs Vliet</BG:locatieOmschrijving>
+					</WOZ:aanduidingWOZobject>
+				</WOZ:gerelateerde>
+			</WOZ:isVoor>
+			<WOZ:isBeschiktVoor StUF:entiteittype="WRDSUB" StUF:verwerkingssoort="T">
+				<WOZ:gerelateerde>
+					<WOZ:natuurlijkPersoon StUF:entiteittype="NPS" StUF:verwerkingssoort="I">
+						<WOZ:isEen StUF:entiteittype="NPSNPS" StUF:verwerkingssoort="I">
+							<WOZ:gerelateerde StUF:entiteittype="NPS" StUF:verwerkingssoort="I">
+								<BG:inp.bsn>123466556</BG:inp.bsn>
+								<BG:geslachtsnaam>Vries</BG:geslachtsnaam>
+								<BG:voorvoegselGeslachtsnaam>de</BG:voorvoegselGeslachtsnaam>
+								<BG:voorletters>K.</BG:voorletters>
+								<BG:geslachtsaanduiding>M</BG:geslachtsaanduiding>
+								<BG:geboortedatum>19900619</BG:geboortedatum>
+								<BG:verblijfsadres>
+									<BG:aoa.identificatie>0513200000002127</BG:aoa.identificatie>
+									<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+									<BG:gor.openbareRuimteNaam>Graaf 1 straat</BG:gor.openbareRuimteNaam>
+									<BG:aoa.postcode>2500AA</BG:aoa.postcode>
+									<BG:aoa.huisnummer>25</BG:aoa.huisnummer>
+									<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+									<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+									<BG:inp.locatiebeschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+								</BG:verblijfsadres>
+							</WOZ:gerelateerde>
+						</WOZ:isEen>
+						<WOZ:soFiNummer>123466556</WOZ:soFiNummer>
+						<WOZ:aanvullingSoFiNummer StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<WOZ:verantwoordelijkeGemeente>6000</WOZ:verantwoordelijkeGemeente>
+					</WOZ:natuurlijkPersoon>
+				</WOZ:gerelateerde>
+				<WOZ:statusBeschikking>01</WOZ:statusBeschikking>
+				<WOZ:brondocument StUF:metagegeven="true">
+					<BG:identificatie>123456</BG:identificatie>
+					<BG:datum>20111030</BG:datum>
+				</WOZ:brondocument>
+				<StUF:tijdvakRelatie>
+					<StUF:beginRelatie>20111029</StUF:beginRelatie>
+					<StUF:eindRelatie StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakRelatie>
+				<StUF:tijdvakGeldigheid>
+					<StUF:beginGeldigheid>20111029</StUF:beginGeldigheid>
+					<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakGeldigheid>
+				<StUF:tijdstipRegistratie>20111029000000000</StUF:tijdstipRegistratie>
+			</WOZ:isBeschiktVoor>
+		</WOZ:object>
+	</WOZ:voegBeschikkingMBtoeWRD>
+	<WOZ:voegMedeBelanghebbendeToeWOZ StUF:entiteittype="WOZ" StUF:functie="update">
+		<WOZ:parameters>
+			<StUF:mutatiesoort>W</StUF:mutatiesoort>
+			<StUF:indicatorOvername>V</StUF:indicatorOvername>
+		</WOZ:parameters>
+		<WOZ:object StUF:entiteittype="WOZ" StUF:verwerkingssoort="I">
+			<WOZ:wozObjectNummer>600000023123</WOZ:wozObjectNummer>
+			<WOZ:aanduidingWOZobject>
+				<BG:aoa.identificatie StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+				<BG:aoa.postcode StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:gor.openbareRuimteNaam>Vlietstraat</BG:gor.openbareRuimteNaam>
+				<BG:aoa.huisnummer StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:locatieOmschrijving>Privé bos langs Vliet</BG:locatieOmschrijving>
+			</WOZ:aanduidingWOZobject>
+			<WOZ:heeftBelanghebbende StUF:entiteittype="WOZSUB" StUF:verwerkingssoort="T" StUF:noValue="geenWaarde" xsi:nil="true"/>
+		</WOZ:object>
+		<WOZ:object StUF:entiteittype="WOZ" StUF:verwerkingssoort="I">
+			<WOZ:wozObjectNummer>600000023123</WOZ:wozObjectNummer>
+			<WOZ:aanduidingWOZobject>
+				<BG:aoa.identificatie StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+				<BG:aoa.postcode StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:gor.openbareRuimteNaam>Vlietstraat</BG:gor.openbareRuimteNaam>
+				<BG:aoa.huisnummer StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:locatieOmschrijving>Privé bos langs Vliet</BG:locatieOmschrijving>
+			</WOZ:aanduidingWOZobject>
+			<WOZ:heeftBelanghebbende StUF:entiteittype="WOZSUB" StUF:verwerkingssoort="T">
+				<WOZ:gerelateerde>
+					<WOZ:natuurlijkPersoon StUF:entiteittype="NPS" StUF:verwerkingssoort="I">
+						<WOZ:isEen StUF:entiteittype="NPSNPS" StUF:verwerkingssoort="I">
+							<WOZ:gerelateerde StUF:entiteittype="NPS" StUF:verwerkingssoort="I">
+								<BG:inp.bsn>123466556</BG:inp.bsn>
+								<BG:geslachtsnaam>Vries</BG:geslachtsnaam>
+								<BG:voorvoegselGeslachtsnaam>de</BG:voorvoegselGeslachtsnaam>
+								<BG:voorletters>K.</BG:voorletters>
+								<BG:geslachtsaanduiding>M</BG:geslachtsaanduiding>
+								<BG:geboortedatum>19900619</BG:geboortedatum>
+								<BG:verblijfsadres>
+									<BG:aoa.identificatie>0513200000002127</BG:aoa.identificatie>
+									<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+									<BG:gor.openbareRuimteNaam>Graaf 1 straat</BG:gor.openbareRuimteNaam>
+									<BG:aoa.postcode>2500AA</BG:aoa.postcode>
+									<BG:aoa.huisnummer>25</BG:aoa.huisnummer>
+									<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+									<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+									<BG:inp.locatiebeschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+								</BG:verblijfsadres>
+							</WOZ:gerelateerde>
+						</WOZ:isEen>
+						<WOZ:soFiNummer>123466556</WOZ:soFiNummer>
+						<WOZ:aanvullingSoFiNummer StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<WOZ:verantwoordelijkeGemeente>6000</WOZ:verantwoordelijkeGemeente>
+					</WOZ:natuurlijkPersoon>
+				</WOZ:gerelateerde>
+				<WOZ:aanduidingEigenaarGebruiker>M</WOZ:aanduidingEigenaarGebruiker>
+				<WOZ:statusBelang>0</WOZ:statusBelang>
+				<StUF:tijdvakRelatie>
+					<StUF:beginRelatie>20111029</StUF:beginRelatie>
+					<StUF:eindRelatie>20120101</StUF:eindRelatie>
+				</StUF:tijdvakRelatie>
+				<StUF:tijdvakGeldigheid>
+					<StUF:beginGeldigheid>20111029</StUF:beginGeldigheid>
+					<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakGeldigheid>
+				<StUF:tijdstipRegistratie>20111029000000000</StUF:tijdstipRegistratie>
+			</WOZ:heeftBelanghebbende>
+		</WOZ:object>
+	</WOZ:voegMedeBelanghebbendeToeWOZ>
+</WOZ:BSKMB_Di01>

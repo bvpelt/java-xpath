@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WOZ:MBE_Di01 xmlns:StUF="http://www.egem.nl/StUF/StUF0301" xmlns:BG="http://www.egem.nl/StUF/sector/bg/0310" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:WOZ="http://www.waarderingskamer.nl/StUF/0312" xsi:schemaLocation="http://www.waarderingskamer.nl/StUF/0312 file:///C:/temp/LV%20WOZ/woz0312_20150703/woz0312/lv_mutatieMetFo01/woz0312_msg_lv_mutatie.xsd">
+	<WOZ:stuurgegevens>
+		<StUF:berichtcode>Di01</StUF:berichtcode>
+		<StUF:zender>
+			<StUF:organisatie>00000001803577059000</StUF:organisatie>
+			<StUF:applicatie>xxx</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker>Waarderingskamer</StUF:gebruiker>
+		</StUF:zender>
+		<StUF:ontvanger>
+			<StUF:organisatie>KADASTER</StUF:organisatie>
+			<StUF:applicatie>LVWOZ</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker/>
+		</StUF:ontvanger>
+		<StUF:referentienummer>804</StUF:referentienummer>
+		<StUF:tijdstipBericht>20170506220802000</StUF:tijdstipBericht>
+		<StUF:functie>WOZ-MBE</StUF:functie>
+	</WOZ:stuurgegevens>
+	<WOZ:routering StUF:entiteittype="WOZ" StUF:functie="entiteit">
+		<WOZ:verantwoordelijkeGemeente>
+			<BG:gemeenteCode>6000</BG:gemeenteCode>
+		</WOZ:verantwoordelijkeGemeente>
+		<WOZ:ligtIn StUF:entiteittype="WOZWSP">
+			<WOZ:gerelateerde StUF:entiteittype="WSP">
+				<WOZ:betrokkenWaterschap>0372</WOZ:betrokkenWaterschap>
+			</WOZ:gerelateerde>
+		</WOZ:ligtIn>
+	</WOZ:routering>
+	<WOZ:voegToeNPS StUF:entiteittype="NPS" StUF:functie="update">
+		<WOZ:parameters>
+			<StUF:mutatiesoort>T</StUF:mutatiesoort>
+			<StUF:indicatorOvername>V</StUF:indicatorOvername>
+		</WOZ:parameters>
+		<WOZ:object StUF:entiteittype="NPS" StUF:verwerkingssoort="T">
+			<WOZ:isEen StUF:entiteittype="NPSNPS" StUF:verwerkingssoort="T">
+				<WOZ:gerelateerde StUF:entiteittype="NPS" StUF:verwerkingssoort="T">
+					<BG:inp.bsn>123444627</BG:inp.bsn>
+					<BG:geslachtsnaam>Balder</BG:geslachtsnaam>
+					<BG:voorvoegselGeslachtsnaam StUF:noValue="geenWaarde" xsi:nil="true"/>
+					<BG:voorletters>J.P.</BG:voorletters>
+					<BG:aanduidingNaamgebruik>E</BG:aanduidingNaamgebruik>
+					<BG:geslachtsnaamPartner StUF:noValue="geenWaarde" xsi:nil="true"/>
+					<BG:voorvoegselGeslachtsnaamPartner StUF:noValue="geenWaarde" xsi:nil="true"/>
+					<BG:aanhefAanschrijving>de heer</BG:aanhefAanschrijving>
+					<BG:geslachtsnaamAanschrijving>Balder</BG:geslachtsnaamAanschrijving>
+					<BG:geslachtsaanduiding>M</BG:geslachtsaanduiding>
+					<BG:geboortedatum>19750813</BG:geboortedatum>
+					<BG:inp.verblijftIn StUF:entiteittype="NPSTGO" StUF:verwerkingssoort="T">
+						<BG:gerelateerde StUF:entiteittype="TGO" StUF:verwerkingssoort="T">
+							<BG:identificatie>0513010000081023</BG:identificatie>
+							<BG:adresAanduidingGrp>
+								<BG:num.identificatie>0513200000810111</BG:num.identificatie>
+								<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+								<BG:gor.openbareRuimteNaam>Hoofdweg</BG:gor.openbareRuimteNaam>
+								<BG:gor.straatnaam>Hoofdweg</BG:gor.straatnaam>
+								<BG:aoa.postcode>2565KL</BG:aoa.postcode>
+								<BG:aoa.huisnummer>321</BG:aoa.huisnummer>
+								<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+								<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+							</BG:adresAanduidingGrp>
+						</BG:gerelateerde>
+					</BG:inp.verblijftIn>
+					<BG:verblijfsadres>
+						<BG:aoa.identificatie>0513200000810111</BG:aoa.identificatie>
+						<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+						<BG:gor.openbareRuimteNaam>Hoofdweg</BG:gor.openbareRuimteNaam>
+						<BG:gor.straatnaam>Hoofdweg</BG:gor.straatnaam>
+						<BG:aoa.postcode>2565KL</BG:aoa.postcode>
+						<BG:aoa.huisnummer>321</BG:aoa.huisnummer>
+						<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:inp.locatiebeschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+					</BG:verblijfsadres>
+					<BG:inp.indicatieGeheim>0</BG:inp.indicatieGeheim>
+				</WOZ:gerelateerde>
+			</WOZ:isEen>
+			<WOZ:soFiNummer>123444627</WOZ:soFiNummer>
+			<WOZ:aanvullingSoFiNummer StUF:noValue="geenWaarde" xsi:nil="true"/>
+			<WOZ:verantwoordelijkeGemeente>6000</WOZ:verantwoordelijkeGemeente>
+			<WOZ:datumEindeSynchronisatie StUF:noValue="geenWaarde" xsi:nil="true"/>
+		</WOZ:object>
+	</WOZ:voegToeNPS>
+	<WOZ:wijzigEigenaarWOZ StUF:entiteittype="WOZ" StUF:functie="update">
+		<WOZ:parameters>
+			<StUF:mutatiesoort>W</StUF:mutatiesoort>
+			<StUF:indicatorOvername>V</StUF:indicatorOvername>
+		</WOZ:parameters>
+		<WOZ:object StUF:entiteittype="WOZ" StUF:verwerkingssoort="I">
+			<WOZ:wozObjectNummer>600000093454</WOZ:wozObjectNummer>
+			<WOZ:aanduidingWOZobject>
+				<BG:aoa.identificatie>0513200000087077</BG:aoa.identificatie>
+				<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+				<BG:aoa.postcode>2513GB</BG:aoa.postcode>
+				<BG:gor.openbareRuimteNaam>Buitenplaats</BG:gor.openbareRuimteNaam>
+				<BG:aoa.huisnummer>1</BG:aoa.huisnummer>
+				<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:locatieOmschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+			</WOZ:aanduidingWOZobject>
+			<WOZ:heeftBelanghebbende StUF:entiteittype="WOZSUB" StUF:noValue="geenWaarde" StUF:verwerkingssoort="T" xsi:nil="true"/>
+		</WOZ:object>
+		<WOZ:object StUF:entiteittype="WOZ" StUF:verwerkingssoort="I">
+			<WOZ:wozObjectNummer>600000093454</WOZ:wozObjectNummer>
+			<WOZ:aanduidingWOZobject>
+				<BG:aoa.identificatie>0513200000087077</BG:aoa.identificatie>
+				<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+				<BG:aoa.postcode>2513GB</BG:aoa.postcode>
+				<BG:gor.openbareRuimteNaam>Buitenplaats</BG:gor.openbareRuimteNaam>
+				<BG:aoa.huisnummer>1</BG:aoa.huisnummer>
+				<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:locatieOmschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+			</WOZ:aanduidingWOZobject>
+			<WOZ:heeftBelanghebbende StUF:entiteittype="WOZSUB" StUF:verwerkingssoort="T">
+				<WOZ:gerelateerde>
+					<WOZ:natuurlijkPersoon StUF:entiteittype="NPS" StUF:verwerkingssoort="I">
+						<WOZ:isEen StUF:entiteittype="NPSNPS" StUF:verwerkingssoort="I">
+							<WOZ:gerelateerde StUF:entiteittype="NPS" StUF:verwerkingssoort="I">
+								<BG:inp.bsn>123444627</BG:inp.bsn>
+								<BG:geslachtsnaam>Balder</BG:geslachtsnaam>
+								<BG:voorvoegselGeslachtsnaam StUF:noValue="geenWaarde" xsi:nil="true"/>
+								<BG:voorletters>J.P.</BG:voorletters>
+								<BG:geslachtsaanduiding>M</BG:geslachtsaanduiding>
+								<BG:geboortedatum>19750813</BG:geboortedatum>
+								<BG:verblijfsadres>
+									<BG:aoa.identificatie>0513200000810111</BG:aoa.identificatie>
+									<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+									<BG:gor.openbareRuimteNaam>Hoofdweg</BG:gor.openbareRuimteNaam>
+									<BG:aoa.postcode>2565KL</BG:aoa.postcode>
+									<BG:aoa.huisnummer>321</BG:aoa.huisnummer>
+									<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+									<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+									<BG:inp.locatiebeschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+								</BG:verblijfsadres>
+							</WOZ:gerelateerde>
+						</WOZ:isEen>
+						<WOZ:soFiNummer>123444627</WOZ:soFiNummer>
+						<WOZ:aanvullingSoFiNummer StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<WOZ:verantwoordelijkeGemeente>6000</WOZ:verantwoordelijkeGemeente>
+					</WOZ:natuurlijkPersoon>
+				</WOZ:gerelateerde>
+				<WOZ:aanduidingEigenaarGebruiker>E</WOZ:aanduidingEigenaarGebruiker>
+				<WOZ:statusBelang>0</WOZ:statusBelang>
+				<WOZ:avr.aard>VE</WOZ:avr.aard>
+				<StUF:tijdvakRelatie>
+					<StUF:beginRelatie>20100611</StUF:beginRelatie>
+					<StUF:eindRelatie StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakRelatie>
+				<StUF:tijdvakGeldigheid>
+					<StUF:beginGeldigheid>20100611</StUF:beginGeldigheid>
+					<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakGeldigheid>
+				<StUF:tijdstipRegistratie>20100703000000000</StUF:tijdstipRegistratie>
+			</WOZ:heeftBelanghebbende>
+		</WOZ:object>
+	</WOZ:wijzigEigenaarWOZ>
+</WOZ:MBE_Di01>

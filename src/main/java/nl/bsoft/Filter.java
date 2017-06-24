@@ -6,7 +6,9 @@ import org.slf4j.LoggerFactory;
 import org.w3c.dom.*;
 
 import javax.xml.xpath.*;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * Created by bvpelt on 6/2/17.
@@ -20,8 +22,8 @@ public class Filter {
     private final String xsiNamespace = "http://www.w3.org/2001/XMLSchema-instance";
 
     private HashMap<String, String> prefMap = new HashMap<String, String>() {{
-        put("WOZ", WOZNamespace);
-        put("StUF", StUFNamespace);
+        put("woz", WOZNamespace);
+        put("stuf", StUFNamespace);
         put("BG", BGNamespace);
         put("xsi", xsiNamespace);
     }};
@@ -37,14 +39,14 @@ public class Filter {
 
         XPathFactory xPathfactory = XPathFactory.newInstance();
         XPath xpath = xPathfactory.newXPath();
-        final String ex01 = "//WOZ:*[@StUF:entiteittype=\"SWO\"]//WOZ:ligtIn";
-        final String ex02 = "//WOZ:object[@StUF:entiteittype=\"WOZ\"]";
-        final String ex03 = "//WOZ:object[@StUF:entiteittype=\"SWO\"]"; // test
-        final String ex04 = "//WOZ:object[@StUF:entiteittype=\"WOZ\"]/WOZ:bevatKadastraleObjecten";
+        final String ex01 = "//woz:*[@stuf:entiteittype=\"SWO\"]//woz:ligtIn";
+        final String ex02 = "//woz:object[@stuf:entiteittype=\"WOZ\"]";
+        final String ex03 = "//woz:object[@stuf:entiteittype=\"SWO\"]"; // test
+        final String ex04 = "//woz:object[@stuf:entiteittype=\"WOZ\"]/woz:bevatKadastraleObjecten";
 
-        final String ex10 = "//WOZ:heeftBelanghebbende//WOZ:avr.aard";
-        final String ex20 = "//WOZ:*[@StUF:entiteittype=\"SWO\"]";
-        final String ex30 = "//WOZ:object[@StUF:entiteittype=\"WRD\"]";
+        final String ex10 = "//woz:heeftBelanghebbende//woz:avr.aard";
+        final String ex20 = "//woz:*[@stuf:entiteittype=\"SWO\"]";
+        final String ex30 = "//woz:object[@stuf:entiteittype=\"WRD\"]";
 
         XPathExpression expr = null;
         NodeList nodes = null;
@@ -100,6 +102,163 @@ public class Filter {
             e.printStackTrace();
         }
         return newdoc;
+    }
+
+    Node findNode(Node node, String tag) {
+
+        // If node with specified name existst at this level return
+        // else try each node
+
+        Node foundNode = null;
+
+        if (node.getNodeName().equals(tag)) {
+            return node;
+        } else {
+            NodeList nodeList = node.getChildNodes();
+
+            if (null != nodeList) {
+                int nlen = nodeList.getLength();
+                for (int i = 0; i < nlen; i++) {
+                    foundNode = findNode(nodeList.item(i), tag);
+                    if (null != foundNode) {
+                        return foundNode;
+                    }
+                }
+            }
+        }
+
+        return foundNode;
+    }
+
+
+    Document myFilterDocument(Document doc, String[] roles) {
+        final String answer = "//woz:antwoord";
+        final String ex01 = "/woz:object[@stuf:entiteittype=\"WOZ\"]";
+
+        String tag = answer + ex01;
+        tag = "WOZ:wozLa08-lvwoz";
+        String nodeContent1;
+
+        Node node = doc.getFirstChild();
+
+        node = findNode(node, "WOZ:antwoord");
+
+        if (null != node) {
+            nodeContent1 = new XMLDocument(node).toString();
+            log.info("-- 02 before change current search node naam {}: \n{}", node.getNodeName(), nodeContent1);
+
+            //woz:object[@stuf:entiteittype="WOZ"]
+            Element e = (Element) node;
+            List<Node> target = new ArrayList<Node>();
+            NodeList nl = e.getElementsByTagName("WOZ:object");
+            if (null != nl) {
+                int nlen = nl.getLength();
+
+
+                for (int j = 0; j < nlen; j++) {
+                    Node n = nl.item(j);
+                    // if attribute match StUF:entiteittype="WOZ" add to target
+                    String attVal = ((Element) n).getAttribute("StUF:entiteittype");
+                    if (attVal.equals("WOZ")) {
+                        target.add(n);
+                    }
+                }
+            }
+
+            Node kadnode = null;
+            if (target.size() > 0) {
+                for (int j = 0; j < target.size(); j++) {
+                    Node targetNode = target.get(j);
+                    nodeContent1 = new XMLDocument(targetNode).toString();
+                    log.info("-- 03 before change current target node naam {}: \n{}", targetNode.getNodeName(), nodeContent1);
+                    // find woz:bevatKadastraleObjecten
+                    //kadnode = findNode(node, "WOZ:antwoord");
+                    kadnode = findNode(node, "WOZ:bevatKadastraleObjecten");
+                    if (null != kadnode) {
+                        nodeContent1 = new XMLDocument(kadnode).toString();
+                        log.info("-- 04 before change current search node naam {}: \n{}", kadnode.getNodeName(), nodeContent1);
+                    }
+                }
+            }
+
+            if (null != kadnode) {
+                String changeNode01 = "StUF:tijdstipRegistratie";
+                String changeNode02 = "WOZ:inOnderzoek";
+                String changeNode03 = "WOZ:meegetaxeerdeOppervlakte";
+                String changeNode04 = "WOZ:toegekendeOppervlakte";
+
+                Element kadelement = (Element) kadnode;
+
+                NodeList kadlist = null;
+
+
+                kadlist = kadelement.getElementsByTagName(changeNode01);
+                if (null != kadlist) {
+                    int nlen = kadlist.getLength();
+                    for (int j = 0; j < nlen; j++) {
+                        nullifyNode(doc, kadlist.item(j));
+                    }
+                }
+
+                kadlist = kadelement.getElementsByTagName(changeNode02);
+                if (null != kadlist) {
+                    int nlen = kadlist.getLength();
+                    for (int j = 0; j < nlen; j++) {
+                        nullifyNode(doc, kadlist.item(j));
+                    }
+                }
+
+                kadlist = kadelement.getElementsByTagName(changeNode03);
+                if (null != kadlist) {
+                    int nlen = kadlist.getLength();
+                    for (int j = 0; j < nlen; j++) {
+                        nullifyNode(doc, kadlist.item(j));
+                    }
+                }
+
+                kadlist = kadelement.getElementsByTagName(changeNode04);
+                if (null != kadlist) {
+                    int nlen = kadlist.getLength();
+                    for (int j = 0; j < nlen; j++) {
+                        nullifyNode(doc, kadlist.item(j));
+                    }
+                }
+            }
+        }
+
+        return doc;
+    }
+
+    private void nullifyNode(Document doc, Node node) {
+        String nodeContent1 = new XMLDocument(node).toString();
+        log.info("-- 01 nullifyNode node : \n{}", node.getNodeName(), nodeContent1);
+        // clear node content
+        node.setTextContent("");
+
+        if (node.hasChildNodes()) {
+            NodeList childNodes = node.getChildNodes();
+            if (null != childNodes) {
+                while (childNodes.getLength() > 0) {
+                    node.removeChild(childNodes.item(0));
+                }
+            }
+        }
+
+        // add node attributes StUF:noValue="geenWaarde" xsi:nil="true"
+        Attr noval = doc.createAttributeNS(
+                StUFNamespace, "noValue");
+        noval.setPrefix("StUF");
+        noval.setNodeValue("geenWaarde");
+        ((Element) node).setAttributeNode(noval);
+
+        Attr nillval = doc.createAttributeNS(
+                xsiNamespace, "nil");
+        nillval.setPrefix("xsi");
+        nillval.setNodeValue("true");
+        ((Element) node).setAttributeNode(nillval);
+
+        String nodeContent2 = new XMLDocument(node).toString();
+        log.info("-- 01 nullifyNode node : \n{}", node.getNodeName(), nodeContent2);
     }
 
     private void checkWozEntSwoNodes(NodeList nodes) {
@@ -246,12 +405,12 @@ public class Filter {
 
     private void checkWozEntWozKadobjects(Document doc, NodeList nodes) {
 
-        final String ex01 = "StUF:tijdstipRegistratie";
-        final String ex02 = "//WOZ:inOnderzoek";
-        final String ex03 = "//WOZ:meegetaxeerdeOppervlakte";
-        final String ex04 = "//WOZ:toegekendeOppervlakte";
-        final String ex05 = "/StUF:tijdvakGeldigheid//StUF:beginGeldigheid";
-        final String ex06 = "/StUF:tijdvakGeldigheid//StUF:eindGeldigheid";
+        final String ex01 = "stuf:tijdstipRegistratie";
+        final String ex02 = "//woz:inOnderzoek";
+        final String ex03 = "//woz:meegetaxeerdeOppervlakte";
+        final String ex04 = "//woz:toegekendeOppervlakte";
+        final String ex05 = "/stuf:tijdvakGeldigheid//stuf:beginGeldigheid";
+        final String ex06 = "/stuf:tijdvakGeldigheid//stuf:eindGeldigheid";
 
         int nlen = nodes.getLength();
         log.info("Number of nodes to proces: {}", nlen);

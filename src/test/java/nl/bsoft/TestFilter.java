@@ -200,7 +200,8 @@ public class TestFilter {
         String xmlin = new XMLDocument(doc).toString();
         log.info("Input     document\n{}", xmlin);
 
-        f.filterDocument(doc, roles);
+        //f.filterDocument(doc, roles);
+        f.myFilterDocument(doc, roles);
 
         String xmlout = new XMLDocument(doc).toString();
         log.info("Converted document\n{}", xmlout);

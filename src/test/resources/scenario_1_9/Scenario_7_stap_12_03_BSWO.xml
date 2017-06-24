@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WOZ:BSWO_Di01 xmlns:StUF="http://www.egem.nl/StUF/StUF0301" xmlns:BG="http://www.egem.nl/StUF/sector/bg/0310" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:WOZ="http://www.waarderingskamer.nl/StUF/0312" xsi:schemaLocation="http://www.waarderingskamer.nl/StUF/0312 file:///C:/temp/LV%20WOZ/woz0312_20150703/woz0312/lv_mutatieMetFo01/woz0312_msg_lv_mutatie.xsd">
+	<WOZ:stuurgegevens>
+		<StUF:berichtcode>Di01</StUF:berichtcode>
+		<StUF:zender>
+			<StUF:organisatie>00000001803577059000</StUF:organisatie>
+			<StUF:applicatie>xxx</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker>Waarderingskamer</StUF:gebruiker>
+		</StUF:zender>
+		<StUF:ontvanger>
+			<StUF:organisatie>KADASTER</StUF:organisatie>
+			<StUF:applicatie>LVWOZ</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker/>
+		</StUF:ontvanger>
+		<StUF:referentienummer>727</StUF:referentienummer>
+		<StUF:tijdstipBericht>20170506220712002</StUF:tijdstipBericht>
+		<StUF:functie>WOZ-BSWO</StUF:functie>
+	</WOZ:stuurgegevens>
+	<WOZ:routering StUF:entiteittype="WOZ" StUF:functie="entiteit">
+		<WOZ:verantwoordelijkeGemeente>
+			<BG:gemeenteCode>6000</BG:gemeenteCode>
+		</WOZ:verantwoordelijkeGemeente>
+		<WOZ:ligtIn StUF:entiteittype="WOZWSP">
+			<WOZ:gerelateerde StUF:entiteittype="WSP">
+				<WOZ:betrokkenWaterschap>0372</WOZ:betrokkenWaterschap>
+			</WOZ:gerelateerde>
+		</WOZ:ligtIn>
+	</WOZ:routering>
+	<WOZ:beeindigSWO StUF:entiteittype="SWO" StUF:functie="update">
+		<WOZ:parameters>
+			<StUF:mutatiesoort>W</StUF:mutatiesoort>
+			<StUF:indicatorOvername>V</StUF:indicatorOvername>
+		</WOZ:parameters>
+		<WOZ:object StUF:entiteittype="SWO" StUF:verwerkingssoort="W">
+			<WOZ:wozObjectNummer>600000081456</WOZ:wozObjectNummer>
+			<WOZ:statusWozObject>0</WOZ:statusWozObject>
+			<WOZ:einddatumObject StUF:noValue="geenWaarde" xsi:nil="true"/>
+			<StUF:tijdvakGeldigheid>
+				<StUF:beginGeldigheid>20090117</StUF:beginGeldigheid>
+				<StUF:eindGeldigheid>20101231</StUF:eindGeldigheid>
+			</StUF:tijdvakGeldigheid>
+		</WOZ:object>
+		<WOZ:object StUF:entiteittype="SWO" StUF:verwerkingssoort="W">
+			<WOZ:wozObjectNummer>600000081456</WOZ:wozObjectNummer>
+			<WOZ:statusWozObject>8</WOZ:statusWozObject>
+			<WOZ:einddatumObject>20101231</WOZ:einddatumObject>
+			<StUF:tijdvakGeldigheid>
+				<StUF:beginGeldigheid>20101231</StUF:beginGeldigheid>
+				<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>
+			</StUF:tijdvakGeldigheid>
+			<StUF:tijdstipRegistratie>20110418000000000</StUF:tijdstipRegistratie>
+		</WOZ:object>
+	</WOZ:beeindigSWO>
+</WOZ:BSWO_Di01>

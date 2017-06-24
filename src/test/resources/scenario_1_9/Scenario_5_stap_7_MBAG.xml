@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WOZ:MBAG_Di01 xmlns:StUF="http://www.egem.nl/StUF/StUF0301" xmlns:BG="http://www.egem.nl/StUF/sector/bg/0310" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:WOZ="http://www.waarderingskamer.nl/StUF/0312" xsi:schemaLocation="http://www.waarderingskamer.nl/StUF/0312 file:///C:/temp/LV%20WOZ/woz0312_20150703/woz0312/lv_mutatieMetFo01/woz0312_msg_lv_mutatie.xsd">
+	<WOZ:stuurgegevens>
+		<StUF:berichtcode>Di01</StUF:berichtcode>
+		<StUF:zender>
+			<StUF:organisatie>00000001803577059000</StUF:organisatie>
+			<StUF:applicatie>xxx</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker>Waarderingskamer</StUF:gebruiker>
+		</StUF:zender>
+		<StUF:ontvanger>
+			<StUF:organisatie>KADASTER</StUF:organisatie>
+			<StUF:applicatie>LVWOZ</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker/>
+		</StUF:ontvanger>
+		<StUF:referentienummer>508</StUF:referentienummer>
+		<StUF:tijdstipBericht>20170506220507000</StUF:tijdstipBericht>
+		<StUF:functie>WOZ-MBAG</StUF:functie>
+	</WOZ:stuurgegevens>
+	<WOZ:routering StUF:entiteittype="WOZ" StUF:functie="entiteit">
+		<WOZ:verantwoordelijkeGemeente>
+			<BG:gemeenteCode>6000</BG:gemeenteCode>
+		</WOZ:verantwoordelijkeGemeente>
+		<WOZ:ligtIn StUF:entiteittype="WOZWSP">
+			<WOZ:gerelateerde StUF:entiteittype="WSP">
+				<WOZ:betrokkenWaterschap>0372</WOZ:betrokkenWaterschap>
+			</WOZ:gerelateerde>
+		</WOZ:ligtIn>
+	</WOZ:routering>
+	<WOZ:wijzigBAGObjectWOZ StUF:entiteittype="WOZ" StUF:functie="update">
+		<WOZ:parameters>
+			<StUF:mutatiesoort>W</StUF:mutatiesoort>
+			<StUF:indicatorOvername>V</StUF:indicatorOvername>
+		</WOZ:parameters>
+		<WOZ:object StUF:entiteittype="WOZ" StUF:verwerkingssoort="I">
+			<WOZ:wozObjectNummer>600000061123</WOZ:wozObjectNummer>
+			<WOZ:aanduidingWOZobject>
+				<BG:aoa.identificatie>0513200000066111</BG:aoa.identificatie>
+				<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+				<BG:aoa.postcode>2521GB</BG:aoa.postcode>
+				<BG:gor.openbareRuimteNaam>Tuinstraat</BG:gor.openbareRuimteNaam>
+				<BG:aoa.huisnummer>1</BG:aoa.huisnummer>
+				<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:locatieOmschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+			</WOZ:aanduidingWOZobject>
+			<StUF:tijdvakGeldigheid>
+				<StUF:beginGeldigheid>20090101</StUF:beginGeldigheid>
+				<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>
+			</StUF:tijdvakGeldigheid>
+			<WOZ:heeftPand StUF:entiteittype="WOZPND" StUF:verwerkingssoort="T" StUF:noValue="geenWaarde" xsi:nil="true"/>
+		</WOZ:object>
+		<WOZ:object StUF:entiteittype="WOZ" StUF:verwerkingssoort="I">
+			<WOZ:wozObjectNummer>600000061123</WOZ:wozObjectNummer>
+			<WOZ:aanduidingWOZobject>
+				<BG:aoa.identificatie>0513200000066111</BG:aoa.identificatie>
+				<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+				<BG:aoa.postcode>2521GB</BG:aoa.postcode>
+				<BG:gor.openbareRuimteNaam>Tuinstraat</BG:gor.openbareRuimteNaam>
+				<BG:aoa.huisnummer>1</BG:aoa.huisnummer>
+				<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:locatieOmschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+			</WOZ:aanduidingWOZobject>
+			<StUF:tijdvakGeldigheid>
+				<StUF:beginGeldigheid>20090101</StUF:beginGeldigheid>
+				<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>
+			</StUF:tijdvakGeldigheid>
+			<WOZ:heeftPand StUF:entiteittype="WOZPND" StUF:verwerkingssoort="T">
+				<WOZ:gerelateerde StUF:entiteittype="PND" StUF:verwerkingssoort="T">
+					<BG:identificatie>0513100000060123</BG:identificatie>
+				</WOZ:gerelateerde>
+				<StUF:tijdvakRelatie>
+					<StUF:beginRelatie>20100521</StUF:beginRelatie>
+					<StUF:eindRelatie StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakRelatie>
+				<StUF:tijdvakGeldigheid>
+					<StUF:beginGeldigheid>20100521</StUF:beginGeldigheid>
+					<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakGeldigheid>
+				<StUF:tijdstipRegistratie>20100524000000000</StUF:tijdstipRegistratie>
+			</WOZ:heeftPand>
+		</WOZ:object>
+	</WOZ:wijzigBAGObjectWOZ>
+</WOZ:MBAG_Di01>

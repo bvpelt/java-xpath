@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WOZ:NBSK_Di01 xmlns:StUF="http://www.egem.nl/StUF/StUF0301" xmlns:BG="http://www.egem.nl/StUF/sector/bg/0310" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:WOZ="http://www.waarderingskamer.nl/StUF/0312" xsi:schemaLocation="http://www.waarderingskamer.nl/StUF/0312 file:///C:/temp/LV%20WOZ/woz0312_20150703/woz0312/lv_mutatieMetFo01/woz0312_msg_lv_mutatie.xsd">
+	<WOZ:stuurgegevens>
+		<StUF:berichtcode>Di01</StUF:berichtcode>
+		<StUF:zender>
+			<StUF:organisatie>00000001803577059000</StUF:organisatie>
+			<StUF:applicatie>xxx</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker>Waarderingskamer</StUF:gebruiker>
+		</StUF:zender>
+		<StUF:ontvanger>
+			<StUF:organisatie>KADASTER</StUF:organisatie>
+			<StUF:applicatie>LVWOZ</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker/>
+		</StUF:ontvanger>
+		<StUF:referentienummer>717</StUF:referentienummer>
+		<StUF:tijdstipBericht>20170506220708000</StUF:tijdstipBericht>
+		<StUF:functie>WOZ-NBSK</StUF:functie>
+	</WOZ:stuurgegevens>
+	<WOZ:routering StUF:entiteittype="WOZ" StUF:functie="entiteit">
+		<WOZ:verantwoordelijkeGemeente>
+			<BG:gemeenteCode>6000</BG:gemeenteCode>
+		</WOZ:verantwoordelijkeGemeente>
+		<WOZ:ligtIn StUF:entiteittype="WOZWSP">
+			<WOZ:gerelateerde StUF:entiteittype="WSP">
+				<WOZ:betrokkenWaterschap>0372</WOZ:betrokkenWaterschap>
+			</WOZ:gerelateerde>
+		</WOZ:ligtIn>
+	</WOZ:routering>
+	<WOZ:voegToeWRD StUF:entiteittype="WRD" StUF:functie="update">
+		<WOZ:parameters>
+			<StUF:mutatiesoort>T</StUF:mutatiesoort>
+			<StUF:indicatorOvername>V</StUF:indicatorOvername>
+		</WOZ:parameters>
+		<WOZ:object StUF:entiteittype="WRD" StUF:verwerkingssoort="T">
+			<WOZ:waardepeildatum>20100101</WOZ:waardepeildatum>
+			<WOZ:toestandspeildatum>20100101</WOZ:toestandspeildatum>
+			<WOZ:vastgesteldeWaarde>315000</WOZ:vastgesteldeWaarde>
+			<WOZ:ingangsdatumWaarde>20110101</WOZ:ingangsdatumWaarde>
+			<WOZ:heffingsmaatstafOZB>315000</WOZ:heffingsmaatstafOZB>
+			<WOZ:heffingsmaatstafOZBGebruiker>315000</WOZ:heffingsmaatstafOZBGebruiker>
+			<StUF:tijdvakGeldigheid>
+				<StUF:beginGeldigheid>20110216</StUF:beginGeldigheid>
+				<StUF:eindGeldigheid xsi:nil="true" StUF:noValue="geenWaarde"/>
+			</StUF:tijdvakGeldigheid>
+			<StUF:tijdstipRegistratie>20110216120034345</StUF:tijdstipRegistratie>
+			<WOZ:isVoor StUF:entiteittype="WRDWOZ" StUF:verwerkingssoort="T">
+				<WOZ:gerelateerde StUF:entiteittype="WOZ" StUF:verwerkingssoort="I">
+					<WOZ:wozObjectNummer>600000081457</WOZ:wozObjectNummer>
+					<WOZ:aanduidingWOZobject>
+						<BG:aoa.identificatie>0513200000087222</BG:aoa.identificatie>
+						<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+						<BG:aoa.postcode>2561AC</BG:aoa.postcode>
+						<BG:gor.openbareRuimteNaam>Scenariobaan</BG:gor.openbareRuimteNaam>
+						<BG:aoa.huisnummer>12</BG:aoa.huisnummer>
+						<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<BG:locatieOmschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+					</WOZ:aanduidingWOZobject>
+				</WOZ:gerelateerde>
+			</WOZ:isVoor>
+			<WOZ:isBeschiktVoor StUF:entiteittype="WRDSUB" StUF:verwerkingssoort="T">
+				<WOZ:gerelateerde>
+					<WOZ:nietNatuurlijkPersoon StUF:entiteittype="NNP" StUF:verwerkingssoort="I">
+						<WOZ:isEen StUF:entiteittype="NNPNNP" StUF:verwerkingssoort="I">
+							<WOZ:gerelateerde StUF:entiteittype="NNP" StUF:verwerkingssoort="I">
+								<BG:inn.nnpId>765432133</BG:inn.nnpId>
+								<BG:statutaireNaam>Test International BV</BG:statutaireNaam>
+								<BG:sub.correspondentieAdres>
+									<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+									<BG:postcode>2501AC</BG:postcode>
+									<BG:sub.postadresType>P</BG:sub.postadresType>
+									<BG:sub.postadresNummer>2100</BG:sub.postadresNummer>
+								</BG:sub.correspondentieAdres>
+							</WOZ:gerelateerde>
+						</WOZ:isEen>
+						<WOZ:aanvullingSoFiNummer StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<WOZ:verantwoordelijkeGemeente>6000</WOZ:verantwoordelijkeGemeente>
+					</WOZ:nietNatuurlijkPersoon>
+				</WOZ:gerelateerde>
+				<WOZ:statusBeschikking>01</WOZ:statusBeschikking>
+				<WOZ:brondocument StUF:metagegeven="true">
+					<BG:identificatie>817645</BG:identificatie>
+					<BG:datum>20110228</BG:datum>
+				</WOZ:brondocument>
+				<StUF:tijdvakRelatie>
+					<StUF:beginRelatie>20110216</StUF:beginRelatie>
+					<StUF:eindRelatie StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakRelatie>
+				<StUF:tijdvakGeldigheid>
+				<StUF:beginGeldigheid>20110216</StUF:beginGeldigheid>
+				<StUF:eindGeldigheid xsi:nil="true" StUF:noValue="geenWaarde"/>
+				</StUF:tijdvakGeldigheid>
+				<StUF:tijdstipRegistratie>20110216120034345</StUF:tijdstipRegistratie>
+			</WOZ:isBeschiktVoor>
+		</WOZ:object>
+	</WOZ:voegToeWRD>
+</WOZ:NBSK_Di01>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WOZ:MBE_Di01 xmlns:StUF="http://www.egem.nl/StUF/StUF0301" xmlns:BG="http://www.egem.nl/StUF/sector/bg/0310" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:WOZ="http://www.waarderingskamer.nl/StUF/0312" xsi:schemaLocation="http://www.waarderingskamer.nl/StUF/0312 file:///C:/temp/LV%20WOZ/woz0312_20150703/woz0312/lv_mutatieMetFo01/woz0312_msg_lv_mutatie.xsd">
+	<WOZ:stuurgegevens>
+		<StUF:berichtcode>Di01</StUF:berichtcode>
+		<StUF:zender>
+			<StUF:organisatie>00000001803577059000</StUF:organisatie>
+			<StUF:applicatie>xxx</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker>Waarderingskamer</StUF:gebruiker>
+		</StUF:zender>
+		<StUF:ontvanger>
+			<StUF:organisatie>KADASTER</StUF:organisatie>
+			<StUF:applicatie>LVWOZ</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker/>
+		</StUF:ontvanger>
+		<StUF:referentienummer>707</StUF:referentienummer>
+		<StUF:tijdstipBericht>20170506220703001</StUF:tijdstipBericht>
+		<StUF:functie>WOZ-MBE</StUF:functie>
+	</WOZ:stuurgegevens>
+	<WOZ:routering StUF:entiteittype="WOZ" StUF:functie="entiteit">
+		<WOZ:verantwoordelijkeGemeente>
+			<BG:gemeenteCode>6000</BG:gemeenteCode>
+		</WOZ:verantwoordelijkeGemeente>
+		<WOZ:ligtIn StUF:entiteittype="WOZWSP">
+			<WOZ:gerelateerde StUF:entiteittype="WSP">
+				<WOZ:betrokkenWaterschap>0372</WOZ:betrokkenWaterschap>
+			</WOZ:gerelateerde>
+		</WOZ:ligtIn>
+	</WOZ:routering>
+	<WOZ:wijzigEigenaarWOZ StUF:entiteittype="WOZ" StUF:functie="update">
+		<WOZ:parameters>
+			<StUF:mutatiesoort>W</StUF:mutatiesoort>
+			<StUF:indicatorOvername>V</StUF:indicatorOvername>
+		</WOZ:parameters>
+		<WOZ:object StUF:entiteittype="WOZ" StUF:verwerkingssoort="I">
+			<WOZ:wozObjectNummer>600000081458</WOZ:wozObjectNummer>
+			<WOZ:aanduidingWOZobject>
+				<BG:aoa.identificatie>0513200000087223</BG:aoa.identificatie>
+				<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+				<BG:aoa.postcode>2561AC</BG:aoa.postcode>
+				<BG:gor.openbareRuimteNaam>Scenariobaan</BG:gor.openbareRuimteNaam>
+				<BG:aoa.huisnummer>12</BG:aoa.huisnummer>
+				<BG:aoa.huisletter>a</BG:aoa.huisletter>
+				<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:locatieOmschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+			</WOZ:aanduidingWOZobject>
+			<WOZ:heeftBelanghebbende StUF:entiteittype="WOZSUB" StUF:verwerkingssoort="W">
+				<WOZ:gerelateerde>
+					<WOZ:nietNatuurlijkPersoon StUF:entiteittype="NNP" StUF:verwerkingssoort="I">
+						<WOZ:isEen StUF:entiteittype="NNPNNP" StUF:verwerkingssoort="I">
+							<WOZ:gerelateerde StUF:entiteittype="NNP" StUF:verwerkingssoort="I">
+								<BG:inn.nnpId>765432133</BG:inn.nnpId>
+								<BG:statutaireNaam>Test International BV</BG:statutaireNaam>
+								<BG:sub.correspondentieAdres>
+									<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+									<BG:postcode>2501AC</BG:postcode>
+									<BG:sub.postadresType>P</BG:sub.postadresType>
+									<BG:sub.postadresNummer>2100</BG:sub.postadresNummer>
+								</BG:sub.correspondentieAdres>
+							</WOZ:gerelateerde>
+						</WOZ:isEen>
+						<WOZ:aanvullingSoFiNummer StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<WOZ:verantwoordelijkeGemeente>6000</WOZ:verantwoordelijkeGemeente>
+					</WOZ:nietNatuurlijkPersoon>
+				</WOZ:gerelateerde>
+				<WOZ:aanduidingEigenaarGebruiker>E</WOZ:aanduidingEigenaarGebruiker>
+				<WOZ:statusBelang>0</WOZ:statusBelang>
+				<WOZ:avr.aard>EP</WOZ:avr.aard>
+				<StUF:tijdvakRelatie>
+					<StUF:beginRelatie>20090117</StUF:beginRelatie>
+					<StUF:eindRelatie StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakRelatie>
+				<StUF:tijdvakGeldigheid>
+					<StUF:beginGeldigheid>20090117</StUF:beginGeldigheid>
+					<StUF:eindGeldigheid>20091011</StUF:eindGeldigheid>
+				</StUF:tijdvakGeldigheid>
+			</WOZ:heeftBelanghebbende>
+		</WOZ:object>
+		<WOZ:object StUF:entiteittype="WOZ" StUF:verwerkingssoort="I">
+			<WOZ:wozObjectNummer>600000081458</WOZ:wozObjectNummer>
+			<WOZ:aanduidingWOZobject>
+				<BG:aoa.identificatie>0513200000087223</BG:aoa.identificatie>
+				<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+				<BG:aoa.postcode>2561AC</BG:aoa.postcode>
+				<BG:gor.openbareRuimteNaam>Scenariobaan</BG:gor.openbareRuimteNaam>
+				<BG:aoa.huisnummer>12</BG:aoa.huisnummer>
+				<BG:aoa.huisletter>a</BG:aoa.huisletter>
+				<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:locatieOmschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+			</WOZ:aanduidingWOZobject>
+			<WOZ:heeftBelanghebbende StUF:entiteittype="WOZSUB" StUF:verwerkingssoort="W">
+				<WOZ:gerelateerde>
+					<WOZ:nietNatuurlijkPersoon StUF:entiteittype="NNP" StUF:verwerkingssoort="I">
+						<WOZ:isEen StUF:entiteittype="NNPNNP" StUF:verwerkingssoort="I">
+							<WOZ:gerelateerde StUF:entiteittype="NNP" StUF:verwerkingssoort="I">
+								<BG:inn.nnpId>765432133</BG:inn.nnpId>
+								<BG:statutaireNaam>Test International BV</BG:statutaireNaam>
+								<BG:sub.correspondentieAdres>
+									<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+									<BG:postcode>2501AC</BG:postcode>
+									<BG:sub.postadresType>P</BG:sub.postadresType>
+									<BG:sub.postadresNummer>2100</BG:sub.postadresNummer>
+								</BG:sub.correspondentieAdres>
+							</WOZ:gerelateerde>
+						</WOZ:isEen>
+						<WOZ:aanvullingSoFiNummer StUF:noValue="geenWaarde" xsi:nil="true"/>
+						<WOZ:verantwoordelijkeGemeente>6000</WOZ:verantwoordelijkeGemeente>
+					</WOZ:nietNatuurlijkPersoon>
+				</WOZ:gerelateerde>
+				<WOZ:aanduidingEigenaarGebruiker>E</WOZ:aanduidingEigenaarGebruiker>
+				<WOZ:statusBelang>0</WOZ:statusBelang>
+				<WOZ:avr.aard>VE</WOZ:avr.aard>
+				<StUF:tijdvakRelatie>
+					<StUF:beginRelatie>20090117</StUF:beginRelatie>
+					<StUF:eindRelatie StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakRelatie>
+				<StUF:tijdvakGeldigheid>
+					<StUF:beginGeldigheid>20091011</StUF:beginGeldigheid>
+					<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakGeldigheid>
+				<StUF:tijdstipRegistratie>20091106000000000</StUF:tijdstipRegistratie>
+			</WOZ:heeftBelanghebbende>
+		</WOZ:object>
+	</WOZ:wijzigEigenaarWOZ>
+</WOZ:MBE_Di01>

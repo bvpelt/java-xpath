@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WOZ:MBAG_Di01 xmlns:StUF="http://www.egem.nl/StUF/StUF0301" xmlns:BG="http://www.egem.nl/StUF/sector/bg/0310" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:WOZ="http://www.waarderingskamer.nl/StUF/0312" xsi:schemaLocation="http://www.waarderingskamer.nl/StUF/0312 file:///C:/temp/LV%20WOZ/woz0312_20150703/woz0312/lv_mutatieMetFo01/woz0312_msg_lv_mutatie.xsd">
+	<WOZ:stuurgegevens>
+		<StUF:berichtcode>Di01</StUF:berichtcode>
+		<StUF:zender>
+			<StUF:organisatie>00000001803577059000</StUF:organisatie>
+			<StUF:applicatie>xxx</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker>Waarderingskamer</StUF:gebruiker>
+		</StUF:zender>
+		<StUF:ontvanger>
+			<StUF:organisatie>KADASTER</StUF:organisatie>
+			<StUF:applicatie>LVWOZ</StUF:applicatie>
+			<StUF:administratie>P</StUF:administratie>
+			<StUF:gebruiker/>
+		</StUF:ontvanger>
+		<StUF:referentienummer>719</StUF:referentienummer>
+		<StUF:tijdstipBericht>20170506220709000</StUF:tijdstipBericht>
+		<StUF:functie>WOZ-MBAG</StUF:functie>
+	</WOZ:stuurgegevens>
+	<WOZ:routering StUF:entiteittype="WOZ" StUF:functie="entiteit">
+		<WOZ:verantwoordelijkeGemeente>
+			<BG:gemeenteCode>6000</BG:gemeenteCode>
+		</WOZ:verantwoordelijkeGemeente>
+		<WOZ:ligtIn StUF:entiteittype="WOZWSP">
+			<WOZ:gerelateerde StUF:entiteittype="WSP">
+				<WOZ:betrokkenWaterschap>0372</WOZ:betrokkenWaterschap>
+			</WOZ:gerelateerde>
+		</WOZ:ligtIn>
+	</WOZ:routering>
+	<WOZ:wijzigBAGObjectWOZ StUF:entiteittype="WOZ" StUF:functie="update">
+		<WOZ:parameters>
+			<StUF:mutatiesoort>W</StUF:mutatiesoort>
+			<StUF:indicatorOvername>V</StUF:indicatorOvername>
+		</WOZ:parameters>
+		<WOZ:object StUF:entiteittype="WOZ" StUF:verwerkingssoort="W">
+			<WOZ:wozObjectNummer>600000081457</WOZ:wozObjectNummer>
+			<WOZ:aanduidingWOZobject>
+				<BG:aoa.identificatie>0513200000087222</BG:aoa.identificatie>
+				<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+				<BG:aoa.postcode>2561AC</BG:aoa.postcode>
+				<BG:gor.openbareRuimteNaam>Scenariobaan</BG:gor.openbareRuimteNaam>
+				<BG:aoa.huisnummer>12</BG:aoa.huisnummer>
+				<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:locatieOmschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+			</WOZ:aanduidingWOZobject>
+			<StUF:tijdvakGeldigheid>
+				<StUF:beginGeldigheid>20090117</StUF:beginGeldigheid>
+				<StUF:eindGeldigheid>20110215</StUF:eindGeldigheid>
+			</StUF:tijdvakGeldigheid>
+			<WOZ:ontleentAanduidingAan StUF:entiteittype="WOZAOTAND" StUF:verwerkingssoort="E">
+				<WOZ:gerelateerde>
+					<BG:verblijfsobject StUF:entiteittype="VBO" StUF:verwerkingssoort="I">
+						<BG:identificatie>0513010000080357</BG:identificatie>
+						<BG:adresAanduidingGrp>
+							<BG:num.identificatie>0513200000087222</BG:num.identificatie>
+							<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+							<BG:gor.openbareRuimteNaam>Scenariobaan</BG:gor.openbareRuimteNaam>
+							<BG:gor.straatnaam>Scenariobaan</BG:gor.straatnaam>
+							<BG:aoa.postcode>2561AC</BG:aoa.postcode>
+							<BG:aoa.huisnummer>12</BG:aoa.huisnummer>
+							<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+							<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+						</BG:adresAanduidingGrp>
+					</BG:verblijfsobject>
+				</WOZ:gerelateerde>
+				<StUF:tijdvakRelatie>
+					<StUF:beginRelatie>20090117</StUF:beginRelatie>
+					<StUF:eindRelatie>20110215</StUF:eindRelatie>
+				</StUF:tijdvakRelatie>
+				<StUF:tijdvakGeldigheid>
+					<StUF:beginGeldigheid>20110215</StUF:beginGeldigheid>
+					<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakGeldigheid>
+				<StUF:tijdstipRegistratie>20110221000000000</StUF:tijdstipRegistratie>
+			</WOZ:ontleentAanduidingAan>
+			<WOZ:isVerbondenMet StUF:entiteittype="WOZAOTOND" StUF:verwerkingssoort="E">
+				<WOZ:gerelateerde>
+					<BG:verblijfsobject StUF:entiteittype="VBO" StUF:verwerkingssoort="I">
+						<BG:identificatie>0513010000080357</BG:identificatie>
+						<BG:adresAanduidingGrp>
+							<BG:num.identificatie>0513200000087222</BG:num.identificatie>
+							<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+							<BG:gor.openbareRuimteNaam>Scenariobaan</BG:gor.openbareRuimteNaam>
+							<BG:gor.straatnaam>Scenariobaan</BG:gor.straatnaam>
+							<BG:aoa.postcode>2561AC</BG:aoa.postcode>
+							<BG:aoa.huisnummer>12</BG:aoa.huisnummer>
+							<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+							<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+						</BG:adresAanduidingGrp>
+					</BG:verblijfsobject>
+				</WOZ:gerelateerde>
+				<StUF:tijdvakRelatie>
+					<StUF:beginRelatie>20090117</StUF:beginRelatie>
+					<StUF:eindRelatie>20110215</StUF:eindRelatie>
+				</StUF:tijdvakRelatie>
+				<StUF:tijdvakGeldigheid>
+					<StUF:beginGeldigheid>20110215</StUF:beginGeldigheid>
+					<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakGeldigheid>
+				<StUF:tijdstipRegistratie>20110221000000000</StUF:tijdstipRegistratie>
+			</WOZ:isVerbondenMet>
+			<WOZ:heeftAlsAanduiding StUF:entiteittype="WOZNUM" StUF:verwerkingssoort="E">
+				<WOZ:gerelateerde StUF:entiteittype="NUM" StUF:verwerkingssoort="I">
+					<BG:identificatie>0513200000087222</BG:identificatie>
+					<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+					<BG:gor.openbareRuimteNaam>Scenariobaan</BG:gor.openbareRuimteNaam>
+					<BG:huisnummer>12</BG:huisnummer>
+					<BG:huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+					<BG:huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+					<BG:postcode>2561AC</BG:postcode>
+				</WOZ:gerelateerde>
+				<WOZ:locatieOmschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<StUF:tijdvakRelatie>
+					<StUF:beginRelatie>20090117</StUF:beginRelatie>
+					<StUF:eindRelatie>20110215</StUF:eindRelatie>
+				</StUF:tijdvakRelatie>
+				<StUF:tijdvakGeldigheid>
+					<StUF:beginGeldigheid>20110215</StUF:beginGeldigheid>
+					<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>
+				</StUF:tijdvakGeldigheid>
+				<StUF:tijdstipRegistratie>20110221000000000</StUF:tijdstipRegistratie>
+			</WOZ:heeftAlsAanduiding>
+		</WOZ:object>
+		<WOZ:object StUF:entiteittype="WOZ" StUF:verwerkingssoort="W">
+			<WOZ:wozObjectNummer>600000081457</WOZ:wozObjectNummer>
+			<WOZ:aanduidingWOZobject>
+				<BG:aoa.identificatie StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:wpl.woonplaatsNaam>'s-Gravenhage</BG:wpl.woonplaatsNaam>
+				<BG:aoa.postcode>2561AC</BG:aoa.postcode>
+				<BG:gor.openbareRuimteNaam>Scenariobaan</BG:gor.openbareRuimteNaam>
+				<BG:aoa.huisnummer>12</BG:aoa.huisnummer>
+				<BG:aoa.huisletter StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:aoa.huisnummertoevoeging StUF:noValue="geenWaarde" xsi:nil="true"/>
+				<BG:locatieOmschrijving StUF:noValue="geenWaarde" xsi:nil="true"/>
+			</WOZ:aanduidingWOZobject>
+			<StUF:tijdvakGeldigheid>
+				<StUF:beginGeldigheid>20110215</StUF:beginGeldigheid>
+				<StUF:eindGeldigheid StUF:noValue="geenWaarde" xsi:nil="true"/>
+			</StUF:tijdvakGeldigheid>
+			<StUF:tijdstipRegistratie>20110221000000000</StUF:tijdstipRegistratie>
+			<WOZ:ontleentAanduidingAan StUF:entiteittype="WOZAOTAND" StUF:noValue="geenWaarde" StUF:verwerkingssoort="E" xsi:nil="true"/>
+			<WOZ:isVerbondenMet StUF:entiteittype="WOZAOTOND" StUF:noValue="geenWaarde" StUF:verwerkingssoort="E" xsi:nil="true"/>
+			<WOZ:heeftAlsAanduiding StUF:entiteittype="WOZNUM" StUF:noValue="geenWaarde" StUF:verwerkingssoort="E" xsi:nil="true"/>
+		</WOZ:object>
+	</WOZ:wijzigBAGObjectWOZ>
+</WOZ:MBAG_Di01>

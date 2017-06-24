@@ -1,5 +1,27 @@
 0000001321,0000001322,0000001325,0000001326,0000001327,0000001328,0000001329,0000001330
-20	//woz:*[@stuf:entiteittype="SWO"]//stuf:tijdstipRegistratie
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten//stuf:tijdstipRegistratie
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten/stuf:tijdvakGeldigheid//stuf:beginGeldigheid
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten/stuf:tijdvakGeldigheid//stuf:eindGeldigheid
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten//woz:inOnderzoek
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten//woz:meegetaxeerdeOppervlakte
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:bevatKadastraleObjecten//woz:toegekendeOppervlakte
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:codeGebouwdOngebouwd
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:grondoppervlakte
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:heeftSluimerendObject/woz:gerelateerde//stuf:tijdstipRegistratie
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:heeftSluimerendObject/woz:gerelateerde/stuf:tijdvakGeldigheid//stuf:beginGeldigheid
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:heeftSluimerendObject/woz:gerelateerde/stuf:tijdvakGeldigheid//stuf:eindGeldigheid
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:heeftSluimerendObject/woz:gerelateerde//woz:inOnderzoek
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:heeftSluimerendObject/woz:gerelateerde//woz:wozObjectNummer
+	//woz:object[@stuf:entiteittype="WOZ"]//woz:meegetaxeerdeOppervlakteGebouwd
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdstipRegistratie
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdvakGeldigheid//stuf:beginGeldigheid
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdvakGeldigheid//stuf:eindGeldigheid
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdvakRelatie//stuf:beginRelatie
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdvakRelatie//stuf:eindRelatie
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//woz:aandeelWaardeWaterschap
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//woz:betrokkenWaterschap
+	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//woz:waterschapNaam
+	//woz:*[@stuf:entiteittype="SWO"]//stuf:tijdstipRegistratie
 	//woz:*[@stuf:entiteittype="SWO"]/stuf:tijdvakGeldigheid//stuf:beginGeldigheid
 	//woz:*[@stuf:entiteittype="SWO"]/stuf:tijdvakGeldigheid//stuf:eindGeldigheid
 	//woz:*[@stuf:entiteittype="SWO"]//woz:codeGebouwdOngebouwd
@@ -7,7 +29,7 @@
 	//woz:*[@stuf:entiteittype="SWO"]//woz:grondoppervlakte
 	//woz:*[@stuf:entiteittype="SWO"]//woz:ingangsdatumObject
 	//woz:*[@stuf:entiteittype="SWO"]//woz:inOnderzoek
-	//woz:*[@stuf:entiteittype="SWO"]//woz:ligtIn//stuf:tijdstipRegistratie
+    //woz:*[@stuf:entiteittype="SWO"]//woz:ligtIn//stuf:tijdstipRegistratie
 	//woz:*[@stuf:entiteittype="SWO"]//woz:ligtIn/stuf:tijdvakGeldigheid//stuf:beginGeldigheid
 	//woz:*[@stuf:entiteittype="SWO"]//woz:ligtIn/stuf:tijdvakGeldigheid//stuf:eindGeldigheid
 	//woz:*[@stuf:entiteittype="SWO"]//woz:ligtIn//woz:betrokkenWaterschap
@@ -31,12 +53,3 @@
 	//woz:*[@stuf:entiteittype="SWO"]/woz:verantwoordelijkeGemeente//bg:gemeenteNaam
 	//woz:*[@stuf:entiteittype="SWO"]//woz:wozObjectGeometrie
 	//woz:*[@stuf:entiteittype="SWO"]//woz:wozObjectNummer
-
-30	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdstipRegistratie
-	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdvakGeldigheid//stuf:beginGeldigheid
-	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdvakGeldigheid//stuf:eindGeldigheid
-	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdvakRelatie//stuf:beginRelatie
-	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//stuf:tijdvakRelatie//stuf:eindRelatie
-	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//woz:aandeelWaardeWaterschap
-	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//woz:betrokkenWaterschap
-	//woz:object[@stuf:entiteittype="WRD"]/woz:wordtVerdeeldNaar//woz:waterschapNaam
